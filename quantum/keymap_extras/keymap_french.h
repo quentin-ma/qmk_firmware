@@ -74,7 +74,7 @@
 #define FR_UGRV KC_QUOT // ù
 #define FR_ASTR KC_NUHS // *
 // Row 4
-#define FR_LABK KC_NUBS // <
+// #define FR_LABK KC_NUBS // <
 #define FR_W    KC_Z    // W
 #define FR_X    KC_X    // X
 #define FR_C    KC_C    // C
@@ -119,7 +119,7 @@
 #define FR_PERC S(FR_UGRV) // %
 #define FR_MICR S(FR_ASTR) // µ
 // Row 4
-#define FR_RABK S(FR_LABK) // >
+// #define FR_RABK S(FR_LABK) // >
 #define FR_QUES S(FR_COMM) // ?
 #define FR_DOT  S(FR_SCLN) // .
 #define FR_SLSH S(FR_COLN) // /
@@ -150,6 +150,8 @@
 #define FR_RBRC ALGR(FR_RPRN) // ]
 #define FR_RCBR ALGR(FR_EQL)  // }
 // Row 2
+#define FR_RABK ALGR(KC_A) // <
+#define FR_LABK ALGR(KC_Z) // >
 #define FR_EURO ALGR(KC_E)   // €
 #define FR_CURR ALGR(FR_DLR) // ¤
 
